@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         glue = {"stepDefinition", "DriverWrapper"},
 
         //Specify tags to be executed
-        tags = {"@Account"},
+        tags = {"@TestCase-9"},
 
         //readable console logs
 

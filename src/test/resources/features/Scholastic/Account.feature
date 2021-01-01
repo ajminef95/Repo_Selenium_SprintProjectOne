@@ -2,7 +2,7 @@
 Feature: Account
 
 
-  @TestCase-1  @smoke @sanity   #Test Case 1
+  @TestCase-1  @smoke @sanity
   Scenario: User can create a new teacher account in taxable state using Zip Code
     #Given I am on the landing page of Scholastic
     And I click on create an account
@@ -32,7 +32,7 @@ Feature: Account
 
 
 
-     @TestCase-2  @sanity        #Test Case 2
+     @TestCase-2  @sanity
     Scenario: User can create a new teacher account in taxable state using School Search
       And I click on create an account
       And I select as Teacher
@@ -63,7 +63,7 @@ Feature: Account
 
 
 
-   @TestCase-4  @sanity        #Test Case 4
+   @TestCase-4  @sanity
   Scenario: User can create a new teacher account in non-taxable state using Zip Code
     And I click on create an account
     And I select as Teacher

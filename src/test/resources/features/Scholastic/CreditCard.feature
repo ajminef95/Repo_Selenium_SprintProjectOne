@@ -5,7 +5,7 @@ Feature: Credit Card
 
 
 
-   @TestCase-5 @smoke @sanity           #Test Case 5
+   @TestCase-5 @smoke @sanity
   Scenario: Verify teacher can add only 3 credit cards under My Credit Cards in My Accounts
     #Given I am on the landing Page
     And I click on sign in
